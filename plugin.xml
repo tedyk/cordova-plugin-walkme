@@ -50,7 +50,14 @@
     <header-file src="src/ios/WalkMe.h" />
     <source-file src="src/ios/WalkMe.m" />
 
-    <framework src="abbi" type="podspec" spec="" />
+    <podspec>
+      <config>
+        <source url="https://github.com/CocoaPods/Specs.git"/>
+      </config>
+      <pods use-frameworks="true">
+        <pod name="abbi" spec="~> 2.4.2" />
+      </pods>
+    </podspec>
   </platform>
 
   <!-- android -->
