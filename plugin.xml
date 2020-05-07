@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-walkme-ts"
-        version="0.2.3">
+        version="0.3.0">
 
   <name>WalkMe Plugin</name>
 
@@ -50,14 +50,7 @@
     <header-file src="src/ios/WalkMe.h" />
     <source-file src="src/ios/WalkMe.m" />
 
-    <framework src="src/ios/WalkMeSDK.framework" custom="true" embed="true" /> 
-    <framework src="AudioToolbox.framework" />
-    <framework src="CoreMotion.framework" />
-    <framework src="UIKit.framework" />
-    <framework src="Social.framework" />
-    <framework src="StoreKit.framework" />
-    <framework src="SystemConfiguration.framework" />
-    <framework src="WebKit.framework" />
+    <framework src="abbi" type="podspec" spec="" />
   </platform>
 
   <!-- android -->
